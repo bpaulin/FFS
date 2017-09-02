@@ -1,0 +1,18 @@
+# Ignore everything
+/*
+!.gitignore
+
+# But scripts
+!/Ships
+/Ships/*
+!/Ships/Script/
+
+# But ffs save
+!/saves
+/saves/*
+!/saves/FFS/
+
+# But installed mod
+!/CKAN
+/CKAN/*
+!/CKAN/installed-default.ckan

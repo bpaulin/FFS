@@ -1,0 +1,47 @@
+{
+	"kind": "metapackage",
+	"abstract": "A list of modules installed on the default KSP instance",
+	"name": "installed-default",
+	"license": "unknown",
+	"version": "2017.09.02.08.10.06",
+	"identifier": "installed-default",
+	"spec_version": "v1.6",
+	"depends": [
+		{
+			"name": "AutomatedScienceSampler",
+			"version": "1.3.3"
+		},
+		{
+			"name": "KerbalEngineerRedux",
+			"version": "1.1.3.0"
+		},
+		{
+			"name": "kOS",
+			"version": "1.1.2"
+		},
+		{
+			"name": "kOSforAll",
+			"version": "0.0.5"
+		},
+		{
+			"name": "MechJeb2",
+			"version": "2.6.1.0"
+		},
+		{
+			"name": "MechJebForAll",
+			"version": "1.2.0.0"
+		},
+		{
+			"name": "ModuleManager",
+			"version": "2.8.1"
+		},
+		{
+			"name": "KerboKatzUtilities",
+			"version": "1.5.0"
+		},
+		{
+			"name": "KVVContinued",
+			"version": "0.0.7"
+		}
+	]
+}
