@@ -16,3 +16,6 @@
 !/CKAN
 /CKAN/*
 !/CKAN/installed-default.ckan
+
+# But docs
+!/docs
