@@ -1,0 +1,15 @@
+---
+layout: main
+---
+
+<h2>{{ page.name }}</h2>
+<p>{{ page.goal }}</p>
+
+{% assign mp = site.missions | where: "program", page.name %}
+<ul>
+{% for mission in mp  %}
+  <li>
+    <a href="{{ site.baseurl }}{{ mission.url }}">{{ mission.name }}</a>
+  </li>
+{% endfor %}
+</ul>

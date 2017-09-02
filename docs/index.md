@@ -2,4 +2,4 @@
 layout: home
 ---
 
-home
+<a href="{{ site.baseurl }}/programs.html">Programs</a>
